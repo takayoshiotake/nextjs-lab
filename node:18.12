@@ -1,2 +1,3 @@
 #!/bin/zsh
-docker run --rm -w /app -v $PWD:/app -it node:18.12-slim $@
+docker run --rm -w /app -v $PWD:/app -it \
+  node:18.12-slim $@

@@ -1,2 +1,6 @@
 #!/bin/zsh
-docker run --rm -w /app -v $PWD:/app -it -p 3000:3000 -p 9229:9229 -e WATCHPACK_POLLING=true node:18.12-slim $@
+docker run --rm -w /app -v $PWD:/app -it \
+  -p 3000:3000 \
+  -p 9229:9229 \
+  -e WATCHPACK_POLLING=true \
+  node:18.12-slim $@
