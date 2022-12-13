@@ -37,7 +37,7 @@ export default function Home({ username }) {
           Hi, { username }
         </h1>
         <br />
-        <button type="button" onClick={signOut}>Sign out</button>
+        <button type="button" onClick={signOut}>Sign Out</button>
       </main>
 
       <footer className={styles.footer}>

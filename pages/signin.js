@@ -55,7 +55,7 @@ export default function SignIn() {
             color: 'red',
             display: hasError ? 'block' : 'none',
             padding: '16px',
-          }}>Enter `taro` in the name field.</div>
+          }}>Enter `taro` in the Name field.</div>
       </main>
 
       <footer className={styles.footer}>
